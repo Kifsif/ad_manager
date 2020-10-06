@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/client")
 @ResponseBody
-public class Admin {
+public class AdminController {
 
     @GetMapping("/admin/")
     public String admin(){
