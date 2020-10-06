@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = {//"ru.pcask.client",
+@SpringBootApplication(scanBasePackages = {"ru.pcask.client",
                                             "ru.pcask.activities_type"
                                            })
 public class Application {
