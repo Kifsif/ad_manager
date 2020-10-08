@@ -1,8 +1,5 @@
 package ru.pcask.client.entities;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 
 @Entity
@@ -11,4 +8,9 @@ public class AdminEntity {
     @GeneratedValue(strategy= GenerationType.AUTO)
     private Long id;
     private String companyName; // Cокращенное фирменное наименование. Например, ООО "Ромашка".
+    private String comment;
+
+    @OneToMany(mappedBy = "activity", fetch = FetchType.LAZY)
+    private Set<Book> bookList;
+
 }
