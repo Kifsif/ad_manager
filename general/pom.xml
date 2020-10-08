@@ -15,20 +15,10 @@
     </properties>
 
     <groupId>ru.pcask</groupId>
-    <artifactId>client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <artifactId>general</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -39,13 +29,5 @@
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
-
-        <dependency>
-            <groupId>ru.pcask</groupId>
-            <artifactId>activity</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
-
 </project>

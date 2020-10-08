@@ -17,6 +17,7 @@
         <module>client</module>
         <module>application</module>
         <module>activity</module>
+        <module>general</module>
     </modules>
 
 
