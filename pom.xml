@@ -16,7 +16,7 @@
     <modules>
         <module>client</module>
         <module>application</module>
-        <module>activities_type</module>
+        <module>activity</module>
     </modules>
 
 

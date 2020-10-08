@@ -35,7 +35,7 @@
 
         <dependency>
             <groupId>ru.pcask</groupId>
-            <artifactId>activities_type</artifactId>
+            <artifactId>activity</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
