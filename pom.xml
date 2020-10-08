@@ -14,9 +14,9 @@
     </properties>
 
     <modules>
-        <module>client</module>
+        <module>clients</module>
         <module>application</module>
-        <module>activity</module>
+        <module>activities</module>
         <module>general</module>
     </modules>
 

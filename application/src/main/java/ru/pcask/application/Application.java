@@ -6,13 +6,13 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
-@SpringBootApplication(scanBasePackages = {"ru.pcask.client",
-                                            "ru.pcask.activities_type"
+@SpringBootApplication(scanBasePackages = {"ru.pcask.clients",
+                                            "ru.pcask.activities"
                                            })
-@EntityScan(value={"ru.pcask.client",
-                   "ru.pcask.activity"})
-@EnableJpaRepositories(value={"ru.pcask.client",
-                       "ru.pcask.activity"})
+@EntityScan(value={"ru.pcask.clients",
+                   "ru.pcask.activities"})
+@EnableJpaRepositories(value={"ru.pcask.clients",
+                       "ru.pcask.activities"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
