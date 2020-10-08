@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
                                             "ru.pcask.activities_type"
                                            })
 @EntityScan(value={"ru.pcask.client",
-                   "ru.pcask.activities_type"})
+                   "ru.pcask.activity"})
 @EnableJpaRepositories(value={"ru.pcask.client",
-                       "ru.pcask.activities_type"})
+                       "ru.pcask.activity"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
