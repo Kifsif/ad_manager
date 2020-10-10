@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping("/client")
+@RequestMapping("/clients")
 @ResponseBody
 public class AdminController {
 

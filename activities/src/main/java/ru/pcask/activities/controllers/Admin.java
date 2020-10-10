@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping("/activities_type")
+@RequestMapping("/activities")
 @ResponseBody
 public class Admin {
 
