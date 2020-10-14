@@ -23,4 +23,11 @@ public class Client {
 
     @ManyToMany(fetch=FetchType.LAZY)
     private Set<Activity> activities;
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Клиент[id=%d, companyName='%s']",
+                id, companyName);
+    }
 }
