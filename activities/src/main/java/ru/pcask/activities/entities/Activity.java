@@ -1,6 +1,7 @@
 package ru.pcask.activities.entities;
 
 import javax.persistence.*;
+import ru.pcask.general.constants.Constants;
 
 @Entity(name="activities_activity")
 public class Activity {
@@ -9,6 +10,6 @@ public class Activity {
     private Long id;
     private String type; // Тип экономической активности. Например, стоматология.
 
-    @Column(length = 3000)
+    @Column(length = Constants.comments_length)
     private String comment;
 }

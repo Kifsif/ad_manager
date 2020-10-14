@@ -4,6 +4,7 @@ import ru.pcask.activities.entities.Activity;
 
 import javax.persistence.*;
 import java.util.Set;
+import ru.pcask.general.constants.Constants;
 
 
 @Entity(name="clients_client")
@@ -13,7 +14,7 @@ public class Client {
     private Long id;
     private String companyName; // Cокращенное фирменное наименование. Например, ООО "Ромашка".
 
-    @Column(length=3000)
+    @Column(length=Constants.comments_length)
     private String comment;
 
     @Column(length=8)
