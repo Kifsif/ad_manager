@@ -14,7 +14,7 @@ public class Client {
     private Long id;
     private String companyName; // Cокращенное фирменное наименование. Например, ООО "Ромашка".
 
-    @Column(length=Constants.comments_length)
+    @Column(length=Constants.COMMENTS_LENGTH)
     private String comment;
 
     @Column(length=8)

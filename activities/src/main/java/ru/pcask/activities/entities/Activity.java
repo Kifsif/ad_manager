@@ -10,6 +10,6 @@ public class Activity {
     private Long id;
     private String type; // Тип экономической активности. Например, стоматология.
 
-    @Column(length = Constants.comments_length)
+    @Column(length = Constants.COMMENTS_LENGTH)
     private String comment;
 }
