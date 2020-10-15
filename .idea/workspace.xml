@@ -24,7 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="704378c2-b6b8-492d-9e9d-cfd64bb6d585" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activities/target/classes/ru/pcask/activities/entities/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/activities/target/classes/ru/pcask/activities/entities/Activity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/controllers/ClientAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/controllers/ClientAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/ru/pcask/clients/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/ru/pcask/clients/controllers/ClientAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/classes/ru/pcask/clients/controllers/ClientAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/target/classes/ru/pcask/clients/entities/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/classes/ru/pcask/clients/entities/Client.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,37 +104,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1167" height="338" key="GridCell.Tab.0.bottom" timestamp="1602680336571">
+    <state width="1167" height="338" key="GridCell.Tab.0.bottom" timestamp="1602758469120">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.0.bottom/67.27.1213.997@67.27.1213.997" timestamp="1602680336571" />
-    <state width="1167" height="338" key="GridCell.Tab.0.center" timestamp="1602680336571">
+    <state width="1167" height="338" key="GridCell.Tab.0.bottom/67.27.1213.997@67.27.1213.997" timestamp="1602758469120" />
+    <state width="1167" height="338" key="GridCell.Tab.0.center" timestamp="1602758469120">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.0.center/67.27.1213.997@67.27.1213.997" timestamp="1602680336571" />
-    <state width="1167" height="338" key="GridCell.Tab.0.left" timestamp="1602680336570">
+    <state width="1167" height="338" key="GridCell.Tab.0.center/67.27.1213.997@67.27.1213.997" timestamp="1602758469120" />
+    <state width="1167" height="338" key="GridCell.Tab.0.left" timestamp="1602758469119">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.0.left/67.27.1213.997@67.27.1213.997" timestamp="1602680336570" />
-    <state width="1167" height="338" key="GridCell.Tab.0.right" timestamp="1602680336571">
+    <state width="1167" height="338" key="GridCell.Tab.0.left/67.27.1213.997@67.27.1213.997" timestamp="1602758469119" />
+    <state width="1167" height="338" key="GridCell.Tab.0.right" timestamp="1602758469120">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.0.right/67.27.1213.997@67.27.1213.997" timestamp="1602680336571" />
-    <state width="1167" height="338" key="GridCell.Tab.1.bottom" timestamp="1602680336572">
+    <state width="1167" height="338" key="GridCell.Tab.0.right/67.27.1213.997@67.27.1213.997" timestamp="1602758469120" />
+    <state width="0" height="0" key="GridCell.Tab.1.bottom" timestamp="1602758469024">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.1.bottom/67.27.1213.997@67.27.1213.997" timestamp="1602680336572" />
-    <state width="1167" height="338" key="GridCell.Tab.1.center" timestamp="1602680336572">
+    <state width="0" height="0" key="GridCell.Tab.1.bottom/67.27.1213.997@67.27.1213.997" timestamp="1602758469024" />
+    <state width="0" height="0" key="GridCell.Tab.1.center" timestamp="1602758469020">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.1.center/67.27.1213.997@67.27.1213.997" timestamp="1602680336572" />
-    <state width="1167" height="338" key="GridCell.Tab.1.left" timestamp="1602680336571">
+    <state width="0" height="0" key="GridCell.Tab.1.center/67.27.1213.997@67.27.1213.997" timestamp="1602758469020" />
+    <state width="0" height="0" key="GridCell.Tab.1.left" timestamp="1602758469019">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.1.left/67.27.1213.997@67.27.1213.997" timestamp="1602680336571" />
-    <state width="1167" height="338" key="GridCell.Tab.1.right" timestamp="1602680336572">
+    <state width="0" height="0" key="GridCell.Tab.1.left/67.27.1213.997@67.27.1213.997" timestamp="1602758469019" />
+    <state width="0" height="0" key="GridCell.Tab.1.right" timestamp="1602758469023">
       <screen x="67" y="27" width="1213" height="997" />
     </state>
-    <state width="1167" height="338" key="GridCell.Tab.1.right/67.27.1213.997@67.27.1213.997" timestamp="1602680336572" />
+    <state width="0" height="0" key="GridCell.Tab.1.right/67.27.1213.997@67.27.1213.997" timestamp="1602758469023" />
   </component>
 </project>
