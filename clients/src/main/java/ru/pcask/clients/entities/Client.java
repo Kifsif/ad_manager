@@ -27,7 +27,7 @@ public class Client {
     @Override
     public String toString() {
         return String.format(
-                "Клиент[id=%d, companyName='%s']",
+                "Клиент [id=%d, companyName='%s']",
                 id, companyName);
     }
 }

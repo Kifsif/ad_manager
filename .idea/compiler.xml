@@ -10,11 +10,13 @@
         <module name="clients" />
         <module name="application" />
         <module name="activities" />
+        <module name="agent_profiles" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="activities" target="1.8" />
       <module name="ad_manager" target="1.5" />
+      <module name="agent_profiles" target="11" />
       <module name="application" target="11" />
       <module name="clients" target="11" />
       <module name="general" target="11" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="activities" options="-parameters" />
+      <module name="agent_profiles" options="-parameters" />
       <module name="application" options="-parameters" />
       <module name="clients" options="-parameters" />
       <module name="general" options="-parameters" />
