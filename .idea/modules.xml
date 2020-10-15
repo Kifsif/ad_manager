@@ -4,10 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/activities/activities.iml" filepath="$PROJECT_DIR$/activities/activities.iml" />
       <module fileurl="file://$PROJECT_DIR$/ad_manager.iml" filepath="$PROJECT_DIR$/ad_manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/agent_profiles/agent_profiles.iml" filepath="$PROJECT_DIR$/agent_profiles/agent_profiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/application/application.iml" filepath="$PROJECT_DIR$/application/application.iml" />
       <module fileurl="file://$PROJECT_DIR$/clients/clients.iml" filepath="$PROJECT_DIR$/clients/clients.iml" />
       <module fileurl="file://$PROJECT_DIR$/general/general.iml" filepath="$PROJECT_DIR$/general/general.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users/users.iml" filepath="$PROJECT_DIR$/users/users.iml" />
     </modules>
   </component>
 </project>

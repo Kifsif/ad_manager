@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import ru.pcask.clients.entities.Client;
 import ru.pcask.clients.repositories.ClientRepository;
 
-import java.util.List;
-import java.util.Optional;
-
 
 @Controller
 @RequestMapping("/clients")

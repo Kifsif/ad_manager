@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.pcask</groupId>
-    <artifactId>agent_profiles</artifactId>
+    <artifactId>users</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>

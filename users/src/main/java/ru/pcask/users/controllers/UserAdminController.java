@@ -1,4 +1,4 @@
-package ru.pcask.agent_profiles.controllers;
+package ru.pcask.users.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-@RequestMapping("/profiles/")
+@RequestMapping("/users")
 @ResponseBody
-public class AgentProfileAdminController {
+public class UserAdminController {
     @GetMapping("/admin/")
     public String admin(){
-        return "agent_profile";
+        return "users";
     }
 }

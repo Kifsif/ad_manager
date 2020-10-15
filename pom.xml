@@ -18,6 +18,6 @@
         <module>application</module>
         <module>activities</module>
         <module>general</module>
-        <module>agent_profiles</module>
+        <module>users</module>
     </modules>
 </project>
